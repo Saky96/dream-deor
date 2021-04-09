@@ -73,7 +73,7 @@ export default () => {
 
       <NavLink href='#portfolio'>Portfolio</NavLink>
       <NavLink href='#team'>Team</NavLink>
-      <NavLink href='#blog'>Blogs</NavLink>
+      {/* <NavLink href='#blog'>Blogs</NavLink> */}
     </NavLinks>,
     <NavLinks key={2}>
       <PrimaryLink href='/#contactUs'>Contact Us</PrimaryLink>
@@ -98,11 +98,11 @@ export default () => {
             {/* <PrimaryAction>Read what we are up to</PrimaryAction> */}
           </LeftColumn>
           <RightColumn>
-            <StyledResponsiveVideoEmbed
+            {/* <StyledResponsiveVideoEmbed
               // url='//player.vimeo.com/video/374265101?title=0&portrait=0&byline=0&autoplay=0&responsive=1'
               url='https://www.youtube.com/embed/PElnK6PGEso'
               background='transparent'
-            />
+            /> */}
           </RightColumn>
         </TwoColumn>
       </HeroContainer>

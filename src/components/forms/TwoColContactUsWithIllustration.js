@@ -63,7 +63,7 @@ export default ({
           <TextContent>
             {subheading && <Subheading>{subheading}</Subheading>}
             <Heading>{heading}</Heading>
-            <Description>{description}</Description>
+            {/* <Description>{description}</Description> */}
             <Form action={formAction} method={formMethod}>
               <Input
                 type='email'

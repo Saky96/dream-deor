@@ -100,10 +100,10 @@ export default ({
             <HeadingInfoContainer>
               <Subheading>{subheading}</Subheading>
               <HeadingTitle>{headingHtmlComponent}</HeadingTitle>
-              <HeadingDescription>{description}</HeadingDescription>
-              <PrimaryLink>
+              {/* <HeadingDescription>{description}</HeadingDescription> */}
+              {/* <PrimaryLink>
                 {linkText} <ArrowRightIcon />
-              </PrimaryLink>
+              </PrimaryLink> */}
             </HeadingInfoContainer>
           </HeadingColumn>
           {cards.map((card, index) => (

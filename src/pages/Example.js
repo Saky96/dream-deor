@@ -13,12 +13,12 @@ import Blog from 'components/blogs/ThreeColSimpleWithImageAndDashedBorder.js';
 
 const Example = () => {
   return (
-    <AnimationRevealPage>
+    <AnimationRevealPage disabled>
       <Hero />
       <About />
       <Portfolio />
       <Team />
-      <Blog />
+      {/* <Blog /> */}
       <ContactUsForm />
       <Footer />
     </AnimationRevealPage>

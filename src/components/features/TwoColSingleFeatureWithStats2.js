@@ -54,7 +54,7 @@ export default ({
       <span tw='text-primary-500'>.</span>
     </>
   ),
-  description = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+  description = 'We are Dream Deor an AR/VR company working to bring creative mixed reality solutions. Our vision is to bring AR/VR and MR worlds into the conventional fields of education and medical sciences. Our work includes projects like HyperSpace and ManoAid.',
   primaryButtonText = 'Learn More',
   primaryButtonUrl = 'https://timerse.com',
   imageSrc = StatsIllustrationSrc,
@@ -101,17 +101,17 @@ export default ({
             {subheading && <Subheading>{subheading}</Subheading>}
             <Heading>{heading}</Heading>
             <Description>{description}</Description>
-            <Statistics>
+            {/* <Statistics>
               {statistics.map((statistic, index) => (
                 <Statistic key={index}>
                   <Value>{statistic.value}</Value>
                   <Key>{statistic.key}</Key>
                 </Statistic>
               ))}
-            </Statistics>
-            <PrimaryButton as='a' href={primaryButtonUrl}>
+            </Statistics> */}
+            {/* <PrimaryButton as='a' href={primaryButtonUrl}>
               {primaryButtonText}
-            </PrimaryButton>
+            </PrimaryButton> */}
           </TextContent>
         </TextColumn>
       </TwoColumn>
